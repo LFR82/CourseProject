@@ -6,7 +6,7 @@ testlabdat <- read.table("y_test.txt", header=FALSE)
 testsubject <- read.table("subject_test.txt", header=FALSE)
 trainsubject <- read.table("subject_train.txt", header=FALSE)
 features <- read.table("features.txt", colClasses=c("character"))
-activiy_labels <- read.table("activity_labels.txt", col.names= c("ActivityId", "Activity"))
+activity_labels <- read.table("activity_labels.txt", col.names= c("ActivityId", "Activity"))
 
 #Overview of datasets
 dim(trainsetdat)#7351 rows, 561 cols
