@@ -27,6 +27,7 @@ You should create one R script called run_analysis.R that does the following.
     - Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
     
 # Contents of respository
-- Run_Analysis.R is the file which contains the codes with the necessary transformations to arrive at a tidy dataset with requirements from the course descripttion above.
+- run_analysis.R is the file which contains the codes with the necessary transformations to arrive at a tidy dataset with requirements from the course descripttion above.
 - Readme.md file which describes what is required
 - codebook to describe transformations and the variables that can be found 
+- tidy.txt reflects tidy dataset returned by write.table () function.
