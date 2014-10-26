@@ -39,7 +39,7 @@ These signals were used to estimate variables of the feature vector for each pat
 
 #Variables 
 
-This analysis plan extracts only the measurements on the following variables:
+This analysis plan extracts only the measurements on the following variables for each measurement:
 
 - mean(): Mean value
 - std(): Standard deviation
